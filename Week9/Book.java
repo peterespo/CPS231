@@ -13,6 +13,14 @@ public class Book {
     author = aut;
     numberOfPages = num;
     }
+    public String getInitials() {
+        return null;
+    }
+    public void setOwner(String string) {
+    }
+    public String getOwner() {
+        return null;
+    }
 }
 
 // Example 2
