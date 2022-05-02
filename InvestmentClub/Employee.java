@@ -16,7 +16,7 @@ class Employee extends Person {
         this.cashAppWallet = cashAppWallet;
     }
 
-    // Bank Account
+    // Bank Account Methods
 
     public void deposit(double amount) {
         if (amount >= 0.0) {
