@@ -16,6 +16,26 @@ class Employee extends Person {
         this.cashAppWallet = cashAppWallet;
     }
 
+    // Bank Account
+
+    public void deposit(double amount) {
+        if (amount >= 0.0) {
+            this.balance += amount;
+        } else {
+            System.err.println("Deposit amount must be positive.");
+        }
+    }
+
+    public void withdraw(double amount) {
+
+        if (amount >= 0.0 && amount <= balance)
+            this.balance -= amount;
+        else
+            System.err.println("Withdrawal amount must be positive and cannot be greater than balance");
+    }
+
+    // Setters & Getters
+
     public void setidNumber(String idNum) {
         this.idNum = idNum;
     }
@@ -63,6 +83,7 @@ class Employee extends Person {
     public int getCashAppWallet() {
         return cashAppWallet;
     }
+    
 
    
     /*public void setName(String firstName, String lastName) {
