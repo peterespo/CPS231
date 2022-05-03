@@ -1,11 +1,5 @@
 import java.util.ArrayList;
 
-
-// TEST CHANGES
-// TEST2
-// TEST3
-// TEST4
-
 public class CollegeInvestmentClub {
     public static void main(String[] args) {
         // Employee Arraylist Initalization
@@ -33,14 +27,22 @@ public class CollegeInvestmentClub {
         employees.add(e8);
         employees.add(e9);
 
+        System.out.println("--------------");;
+        for (Employee e : employees) {
+            getData(e);
+            System.out.println("--------------");;
+        }
+
     }
     
-    /*public static void getData(Employee e) {
-        System.out.println(e.getFirstName());
+    public static void getData(Employee e) {
+        /*System.out.println(e.getFirstName());
         System.out.println(e.getLastName());
         System.out.println(e.getidNum());
         System.out.println(e.getEmail());
         System.out.println(e.getBalance());
-        System.out.println(e.getEmployeeType());
-    }*/
+        System.out.println(e.getEmployeeType());*/
+
+        System.out.println(e.getFirstName() +  " " + e.getLastName() + " " + e.getidNum() + " " + e.getEmail() + " " + e.getBalance() + " " + e.getEmployeeType() );
+    }
 }
