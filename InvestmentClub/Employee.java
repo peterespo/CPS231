@@ -4,21 +4,12 @@ class Employee extends Person {
     double balance;
     String employeeType;
 
-<<<<<<< HEAD
-    public Employee(String firstName, String lastName, String idNum, String email, double balance, String employeeType) /*String phoneNumber, int cashAppWallet*/ {
-=======
     public Employee(String firstName, String lastName, String idNum, String email, double balance, String employeeType) {
->>>>>>> 01eb47b18c5909dd4a9e2c2872aa16a5249cddb5
         super(firstName, lastName);
         this.idNum = idNum;
         this.email = email;
         this.balance = balance;
         this.employeeType = employeeType;
-<<<<<<< HEAD
-        //this.phoneNumber = phoneNumber;
-        //this.cashAppWallet = cashAppWallet;
-=======
->>>>>>> 01eb47b18c5909dd4a9e2c2872aa16a5249cddb5
     }
 
     // Bank Account Methods
@@ -72,7 +63,6 @@ class Employee extends Person {
     public String getEmployeeType() {
         return employeeType;
     }
-<<<<<<< HEAD
 
     /*public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
@@ -89,11 +79,7 @@ class Employee extends Person {
     public int getCashAppWallet() {
         return cashAppWallet;
     }
-=======
->>>>>>> 01eb47b18c5909dd4a9e2c2872aa16a5249cddb5
     
-
-   
     public void setName(String firstName, String lastName) {
         this.firstName = firstName;
         this.lastName = lastName;
