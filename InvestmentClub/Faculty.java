@@ -2,7 +2,7 @@ public class Faculty extends Employee {
     String subjectName;
 
     public Faculty(String firstName, String lastName, String idNum, String email, double balance, String employeeType, String phoneNumber, int cashAppWallet, String subjectName) {
-        super(firstName, lastName, idNum, email, balance, employeeType, phoneNumber, cashAppWallet);
+        super(firstName, lastName, idNum, email, balance, employeeType /*phoneNumber, cashAppWallet*/);
         this.subjectName = subjectName;
     }
 
