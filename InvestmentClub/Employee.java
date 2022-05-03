@@ -3,17 +3,13 @@ class Employee extends Person {
     String email;
     double balance;
     String employeeType;
-    String phoneNumber;
-    int cashAppWallet;
 
-    public Employee(String firstName, String lastName, String idNum, String email, double balance, String employeeType, String phoneNumber, int cashAppWallet) {
+    public Employee(String firstName, String lastName, String idNum, String email, double balance, String employeeType) {
         super(firstName, lastName);
         this.idNum = idNum;
         this.email = email;
         this.balance = balance;
         this.employeeType = employeeType;
-        this.phoneNumber = phoneNumber;
-        this.cashAppWallet = cashAppWallet;
     }
 
     // Bank Account Methods
@@ -66,22 +62,6 @@ class Employee extends Person {
 
     public String getEmployeeType() {
         return employeeType;
-    }
-
-    public void setPhoneNumber(String phoneNumber) {
-        this.phoneNumber = phoneNumber;
-    }
-
-    public String getPhoneNumber() {
-        return phoneNumber;
-    }
-
-    public void setCashAppWallet(int cashAppWallet) {
-        this.cashAppWallet = cashAppWallet;
-    }
-
-    public int getCashAppWallet() {
-        return cashAppWallet;
     }
     
 

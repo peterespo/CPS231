@@ -1,4 +1,4 @@
-class Person {
+/*class Person {
     private String firstName;
     private String lastName;
 
@@ -22,4 +22,4 @@ class Person {
     public String getLastName() {
         return lastName;
     }
-}
+}*/

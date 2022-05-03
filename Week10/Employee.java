@@ -1,4 +1,4 @@
-class Employee extends Person {
+/*class Employee extends Person {
     String idNum;
     String email;
     double balance;
@@ -78,5 +78,5 @@ class Employee extends Person {
 
     public String getName() {
         return (firstName + " " + lastName);
-    }*/
-}
+    }
+}*/
