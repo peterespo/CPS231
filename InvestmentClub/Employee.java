@@ -6,14 +6,14 @@ class Employee extends Person {
     String phoneNumber;
     int cashAppWallet;
 
-    public Employee(String firstName, String lastName, String idNum, String email, double balance, String employeeType, String phoneNumber, int cashAppWallet) {
+    public Employee(String firstName, String lastName, String idNum, String email, double balance, String employeeType) /*String phoneNumber, int cashAppWallet*/ {
         super(firstName, lastName);
         this.idNum = idNum;
         this.email = email;
         this.balance = balance;
         this.employeeType = employeeType;
-        this.phoneNumber = phoneNumber;
-        this.cashAppWallet = cashAppWallet;
+        //this.phoneNumber = phoneNumber;
+        //this.cashAppWallet = cashAppWallet;
     }
 
     // Bank Account Methods
@@ -68,7 +68,7 @@ class Employee extends Person {
         return employeeType;
     }
 
-    public void setPhoneNumber(String phoneNumber) {
+    /*public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
 
@@ -86,7 +86,7 @@ class Employee extends Person {
     
 
    
-    /*public void setName(String firstName, String lastName) {
+    public void setName(String firstName, String lastName) {
         this.firstName = firstName;
         this.lastName = lastName;
     }
