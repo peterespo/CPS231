@@ -1,4 +1,4 @@
-public class Faculty extends Employee {
+/*public class Faculty extends Employee {
     String subjectName;
 
     public Faculty(String firstName, String lastName, String idNum, String email, double balance, String employeeType, String phoneNumber, int cashAppWallet, String subjectName) {
@@ -14,4 +14,4 @@ public class Faculty extends Employee {
         return subjectName;
     }
 
-}
+}*/
